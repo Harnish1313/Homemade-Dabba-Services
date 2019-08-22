@@ -1,0 +1,350 @@
+*
+{
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+     
+}
+
+html
+{
+    background-color: white;
+    font-weight: 300;
+    font-size: 21px;
+    text-rendering: optimizeLegibility;
+
+}
+    
+.row
+{
+     
+     margin-right: auto;
+     margin-right: auto;
+     margin-top: 0;
+     margin-bottom:0;
+}
+
+h1
+{
+     
+    margin: 0;
+    color:floralwhite;
+    font-size:200%;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+h2
+{
+    font-size: 180%;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: sans-serif; 
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 20px;
+}
+
+p
+ { 
+   line-height: 145%;
+     width:70%;
+    margin-left: 15%;
+}
+
+h3
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    word-spacing: 3px;
+    font-weight: 300;
+    margin-left: 15%;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+    word-spacing: 2px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#Fonnt
+{
+ font-family: 'Livvic', sans-serif;
+    }
+
+#Fonnnt
+{
+    font-family: 'Raleway', sans-serif;
+    color: floralwhite;
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 0%;
+}
+    
+header 
+   {
+       background-image : linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(862638.jpg);
+       background-size: cover;
+       background-position: center;
+       height: 100vh;
+       background-attachment: fixed;
+    }
+
+.head{
+        position: absolute;
+        width: 1140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}   
+.btn:link,.btn:visited,input[type=submit],input[type=submit]
+{
+     font-family: sans-serif;
+     color: whitesmoke;
+     font-size: 18px;
+     display: inline-block;
+     font-weight: 300;
+     padding:10px 30px;
+     font-weight: 300;
+     text-decoration: none;
+     border-radius: 200px;
+     transition: background-color 0.3s,color 0.3s,letter-spacing 0.15s;
+     color: dodgerblue;
+    
+     
+} 
+
+
+input[type=submit]:hover,{
+border-radius: 200px;
+transition: background-color 0.3s,color 0.3s,letter-spacing 0.15s;
+background-color: #fcb32b;
+}
+
+
+.btn-YES,.btn:visited,input[type=submit]{
+    color:#0e0e31;
+    font-family: sans-serif;
+    background-color:#fdcb6e;
+}
+
+.btn:hover,.btn:active,input[type=submit]:hover,input[type=submit]:active
+{ 
+    color: #222074;
+    background: #fcb32b;
+    letter-spacing: 5px;
+}
+.logo
+{
+     height: 120px;
+     float:left;
+     transform: translate(+150%,10%);
+     width: auto;
+}
+.List-1,List-2
+{
+    list-style: none;
+}
+.List-1 li a:link,
+.List-1 li a:visited,
+.List-2 li a:link,
+.List-2 li a:visited
+{
+    color: ghostwhite;
+    display: inline-block;
+    margin-left: 80px;
+    float:right;
+    transform: translate(-100%,-300%);
+    font-family:sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+
+}
+
+.List-1 li a:active,
+.List-1 li a:hover,
+.List-2 li a:active,
+.List-2 li a:hover
+{
+    color: ghostwhite;
+    border-bottom: 3px solid #fcb32b;
+}
+
+.image-meal
+{
+    transform: translate(10%);
+    width: 15%;
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.5s,transform 0.5s;
+    padding-bottom: 0px;
+    padding-top: 60px;
+    margin-left: 20px;
+}
+.image-meal:hover
+{
+     opacity: 1;  
+    transform: scale(1.07);
+}
+.section-customer
+{
+   
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(Transparent-image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+        
+}
+.h2-customer
+{
+    color: white;
+}
+
+.p-customer
+{ 
+    color: white;
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%; 
+}
+
+.customer-image
+{    
+     width: 20%;
+    border-radius: 50%;
+    height: 55px;
+    width: auto;  
+}
+
+cite
+{
+    font-size: 90%;
+    margin-top: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 25px;
+   
+}
+cite img{
+    margin-left: 15%;
+    float: left;
+}
+#Fonnnt{
+    padding-top: 0px;
+}
+
+
+
+
+
+/*.Ending
+{
+list-style: none;
+text-decoration: none;
+float: left; 
+padding: 30px;x
+color: orange;
+text-decoration: none;
+}
+.Ending-nav li{
+display: inline-block;
+margin-right: 20px;
+word-spacing: 2px;
+font-family: 'Roboto', sans-serif;
+color:orange;
+}
+*/
+footer{
+     background-color:#3b3b3b;
+     height: 100px;
+    
+}
+.List-2 li
+{
+    float: left;
+    display: inline-block;
+    transform: translate(10%,320%);
+    font-size: 15px;
+    letter-spacing: 2px;margin-left: 0px;
+    word-spacing: 20%;
+}
+.Listt
+{
+    margin-left: 20px;
+
+}
+#cart,#nutrition,#bicycle,#person{
+color: #ffa14a;
+font-size: 64px;        
+}
+.formmm
+{
+margin: 0 auto;
+width: 60%
+
+}
+input[type=text],
+input[type=email],
+select,textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    
+}
+label{
+    font-size: 25px;   
+    font-family: 'Roboto', sans-serif;
+    color: coral;
+}
+footer
+{
+     height: 100%;
+     color: white;
+     padding: 10px auto;
+     line-height: 145%;
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.5s;
+ }
+
+.fooot li{
+    transform:  translate(10%);
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    
+    
+}
+#instagram,#facebook,#twitter
+{
+    font-size: 25px;
+    color: whitesmoke;
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
+    word-spacing: 5px;
+    transition: color 0.5s;
+    transform: translate(-150%,27%);
+     
+} 
+/* About US 
+
+.Header-1 
+   {
+       background-image : linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(indian-food-hd-wallpaper-download-amazing-wallpaper-hd-library-•.jpg)
+       background-size: cover;
+       background-position: center;
+       height: 100vh;
+       background-attachment: fixed;*/
+
+
+
+
